@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Images/getty_532181848_393533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color:lavender ;
+    text-align: center;
+    padding: 25px ;
+
+}
+.navbar ul li{
+    display: inline;
+    
+    list-style: none;
+    padding: 20px 30px ;
+}
+ a{
+    text-decoration: none;
+    color: black;   
+}
+.navbar ul li:hover{
+    background:rgb(243, 8, 86);  
+    border-radius: 5px;
+}
+.Submenu{
+    display: none;
+}
+.navbar ul li:hover .Submenu{
+    display:block;
+    position: absolute;
+    background-color:lavender ;
+}
+.navbar ul li:hover .Submenu li{
+    display: block;
+}
+.Services{
+    margin-top: 22px;
+    margin-left: 24%;
+}
+.Software{
+    margin-top: 22px;
+    margin-left: 52%;
+}
+.Languages{
+    margin-top: 22px;
+    margin-left: 62%;
+}
+
+.Submenu-2{
+    display: none;
+}
+.Submenu li:hover .Submenu-2{
+    display: block;
+    position: absolute;
+    background-color:lavender ;
+    
+}
+.Graphic{
+    margin-top: -33px;
+    margin-left: 140px;
+}
+.Frontend{
+    margin-top: -32px;
+    margin-left: 95px;
+}
+.Backend{
+    margin-top: -32px;
+    margin-left: 95px;
+}
+.miniline{
+    color: rgb(231, 159, 23);
+    text-align: center;
+    padding-top: 8%;
+}
+.txt{
+    position: absolute;
+    font-size: 455%;
+    padding-top: 4%;
+    text-align: center;
+    color: rgb(243, 8, 86);
+}
+.white{
+    color: white;
+}
+.line{
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 18%;
+    color: white;
+}
+.button{
+    background-color:rgb(243, 8, 86) ;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    padding: 23px ;
+    text-align: center;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 43%;
+}
